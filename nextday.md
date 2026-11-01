@@ -1,0 +1,4 @@
+- Read: REST and REST API https://www.taniarascia.com/understanding-rest-apis/?utm_source=chatgpt.com#what-are-rest-and-restful-apis
+- HTTP Exacty
+- Implment the features
+    - getStudents

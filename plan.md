@@ -1,9 +1,9 @@
 Day 1 — Complete CRUD
 Start here
 Learn how to manage the entire student lifecycle.
-- GET /api/students — get all students
-- GET /api/students/:id — get one student
-- POST /api/students — create a student
+- GET /api/students — get all students [x]
+- GET /api/students/:id — get one student [x]
+- POST /api/students — create a student [x]
 - PATCH /api/students/:id — update selected fields
 - DELETE /api/students/:id — delete a student
 Learn: HTTP methods, route parameters, request bodies, status codes, Mongoose queries.
@@ -22,11 +22,11 @@ Learn: HTTP methods, route parameters, request bodies, status codes, Mongoose qu
 Day 2 — Validation and error handling
 
 Stop bad data before it enters your database.
-- Require name, email, and department.
-- Validate email format and age limits.
-- Handle duplicate emails.
-- Return meaningful 400, 404, and 409 responses.
-- Create centralized error-handling middleware.
+- Require name, email, and department. [x]
+- Validate email format and age limits. [x]
+- Handle duplicate emails. [x]
+- Return meaningful 400, 404, and 409 responses. [x]
+- Create centralized error-handling middleware. [x]
 Learn: middleware, try/catch, next(error), Mongoose validation, HTTP errors.
 
 
@@ -65,7 +65,7 @@ Learn: query parameters, MongoDB filters, sort(), skip(), limit().
 Day 4 — Understand Express deeply
 
 Build reusable middleware and organize your code.
-- Logging middleware for every request.
+- Logging middleware for every request. [x] (morgan)
 - Not-found middleware for unknown routes.
 - Centralized error handling.
 - Separate routes, controllers, models and services.
